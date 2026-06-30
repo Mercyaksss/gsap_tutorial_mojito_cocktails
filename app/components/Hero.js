@@ -81,19 +81,19 @@ function Hero() {
                 src='/images/hero-left-leaf.png'
                 alt='left-leaf'
                 className='left-leaf'
-                width={326}
-                height={326}
+                width={200}
+                height={200}
             />
             <Image 
                 src='/images/hero-right-leaf.png'
                 alt='right-leaf'
                 className='right-leaf'
-                width={356}
-                height={356}
+                width={256}
+                height={256}
             />
 
             <div className='body'>
-                <div className='content'>
+                  <div className='content'>
                     <div className='space-y-5 hidden md:block'>
                         <p> Cool. Crisp. Classic.</p>
                         <p className='subtitle'> Sip the Spirit <br/> of Summer</p>
