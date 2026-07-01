@@ -28,7 +28,7 @@ function Hero() {
             stagger: 0.05,
         });
 
-        gsap.from(paragraphSplit.lines, {
+        gsap.from(paragraphSplit.lines, { 
             opacity: 0,
             yPercent: 100,
             duration: 1.8,
@@ -51,7 +51,7 @@ function Hero() {
         .to('.left-leaf', {y: -200}, 0)
 
         const startValue = isMobile ? 'top 50%' : 'center 60%';
-        const endValue = isMobile ? '163% top' : 'bottom top'; 
+        const endValue = isMobile ? '160% top' : 'bottom top'; 
 
 
         const tl = gsap.timeline({

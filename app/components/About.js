@@ -25,6 +25,7 @@ function About() {
         })
 
         // defines exactly what animation happens
+        scrollTimeline
         .from(titleSplit.words, {
             opacity: 0,
             duration: 1,
