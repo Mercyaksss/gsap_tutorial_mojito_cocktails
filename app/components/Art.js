@@ -7,7 +7,9 @@ import underimg from '../../public/images/under-img.jpg'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { useMediaQuery } from 'react-responsive'
-// import { ScrollTrigger } from 'gsap/all'
+import { ScrollTrigger } from 'gsap/all'
+gsap.registerPlugin(ScrollTrigger);
+
 
 
 function Art() {

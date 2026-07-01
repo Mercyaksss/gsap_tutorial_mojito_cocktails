@@ -40,7 +40,7 @@ function Menu() {
     const nextCocktail = getCocktailAt(1);
   return (
     <section id='menu' aria-labelledby='menu-heading'>
-        <Image src={sliderleftleaf} alt='slider left leaf' id='m-left-leaf'/>   
+        {/* <Image src={sliderleftleaf} alt='slider left leaf' id='m-left-leaf'/>    */}
         <Image src={sliderrightleaf} alt='slider right leaf' id='m-right-leaf' /> 
 
         <h2 id='menu-heading' className='sr-only'>Cocktail Menu</h2>  
